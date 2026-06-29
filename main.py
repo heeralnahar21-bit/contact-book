@@ -18,6 +18,7 @@ class Contacts:
 class Contactbook:
     def __init__(self):
         self.contacts=[]
+        self.load_contacts()
     def add_contact(self,contact):
           self.contacts.append(contact)
     def viewcontacts(self):
@@ -44,7 +45,7 @@ class Contactbook:
             for contact in data["Contacts"]:
                  obj=Contacts(
                       contact["name"],
-                      contact["phone number"],
+                      contact["phone"],
                       contact["email"],
                  )
                  self.contacts.append(obj)

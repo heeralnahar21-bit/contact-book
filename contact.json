@@ -1,21 +1,21 @@
 {"Contacts":[
     {
         "name":"ram",
-        "phone number":"9924560676",
+        "phone":"9924560676",
         "email":"ram2@gmail.com"
     },
     {
         "name":"shyam",
-        "phone number":"9927328432",
+        "phone":"9927328432",
         "email":"shyam22@gmail.com"
     },
     {
         "name":"lekha",
-        "phone number":"9924562212",
+        "phone":"9924562212",
         "email":"lekha12@gmail.com"
     },
     {"name":"jaya",
-        "phone number":"9924560670",
+        "phone":"9924560670",
         "email":"jaya2@gmail.com"}
 ]
 }
