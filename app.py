@@ -42,7 +42,7 @@ class Contactbook:
 
     def load_contacts(self):
         try:
-            with open("contacts.json", "r") as file:
+            with open("contact.json", "r") as file:
                 data = json.load(file)
             for contact in data:
                 obj = Contacts(
