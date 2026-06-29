@@ -65,7 +65,7 @@ class Contactbook:
 
 # ── Streamlit UI ───────────────────────────────────────────────────────────────
 
-st.set_page_config(page_title="Contact Book", page_icon="📒", layout="centered")
+st.set_page_config(page_title="Contact Book", page_icon="📒", layout="wide")
 
 # Load once into session state
 if "book" not in st.session_state:
