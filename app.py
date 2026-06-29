@@ -44,7 +44,7 @@ class Contactbook:
         try:
             with open("contact.json", "r") as file:
                 data = json.load(file)
-            for contact in data:
+            for contact in data["Contacts"]:
                 obj = Contacts(
                     contact["name"],
                     contact["phone"],
